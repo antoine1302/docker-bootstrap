@@ -1,0 +1,13 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+DNS.2 = testance01.local
+DNS.3 = testance02.local
+DNS.4 = testance03.local
+DNS.5 = testance04.local
+DNS.6 = testance05.local
+DNS.7 = perfectloop.local
+DNS.8 = ernit.local
